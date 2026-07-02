@@ -14,7 +14,7 @@ const cors = require('cors')
 // console.log("Hello")
 
 app.use(cors({
-    origin: 'https://leetcode-clone-scd1.vercel.app',
+    origin: 'https://leetcode-clone-l3ge.vercel.app/signup',
     credentials: true 
 }))
 // app.use(cors({
