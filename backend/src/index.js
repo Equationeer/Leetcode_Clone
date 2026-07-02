@@ -11,19 +11,10 @@ const aiRouter = require("./routes/aiChatting")
 const videoRouter = require("./routes/videoCreator");
 const cors = require('cors')
 
-// console.log("Hello")
-
 app.use(cors({
     origin: 'https://leetcode-clone-l3ge.vercel.app',
     credentials: true 
 }))
-// app.use(cors({
-//   origin: [
-//     "http://localhost:5173",               
-//     "https://your-frontend.onrender.com"     
-//   ],
-//   credentials: true
-// }));
 
 app.use(express.json());
 app.use(cookieParser());
