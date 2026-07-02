@@ -12,9 +12,9 @@ const videoRouter = require("./routes/videoCreator");
 const cors = require('cors')
 
 app.use(cors({
-    origin: 'https://leetcode-clone-l3ge.vercel.app',
-    credentials: true 
-}))
+    origin: "https://leetcode-clone-l3ge.vercel.app",
+    credentials: true,
+}));
 
 app.use(express.json());
 app.use(cookieParser());
